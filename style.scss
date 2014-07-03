@@ -608,3 +608,6 @@ footer[role="contentinfo"] a{color:#686868;}
 footer[role="contentinfo"] a:hover{color:#a40575;}
 
 footer[role="contentinfo"] .menus div {width: 33%;float: left;}
+
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a {display: inline-block;width: 200px;}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-due-date {width: 80px;display: inline-block;}
