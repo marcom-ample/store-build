@@ -441,3 +441,17 @@ function add_loginout_link( $items, $args ) {
     }
     return $items;
 }
+   	//Login Screen
+	function my_login_logo() { ?>
+	<style type="text/css">
+		body.login div#login h1 a {
+	        background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/store-build-logo.png);
+	        background-size: 280px 80px;width: 280px;height: 80px;padding-bottom: 65px;
+	    }
+		body.login div#login form#loginform p.submit input#wp-submit {background: #000000;border-color: #000000;
+			box-shadow:inset 0 1px 0 rgba(0,0,0,.5),0 1px 0 rgba(0,0,0,.15);
+		}
+		body.login div#login .message {border-left-color: #000000;}
+	</style>
+	<?php }
+	add_action( 'login_enqueue_scripts', 'my_login_logo' );
