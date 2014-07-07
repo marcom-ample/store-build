@@ -297,7 +297,6 @@ article.sticky .featured-post{border-top:4px double #ededed;border-bottom:4px do
 .entry-summary p,
 .comment-content p,
 .mu_register p{margin:0 0 24px;margin:0 0 1.714285714rem;line-height:1.714285714;}
-.entry-content a:visited,
 .comment-content a:visited{color:#9f9f9f;}
 .entry-content ol,
 .comment-content ol,
@@ -609,5 +608,55 @@ footer[role="contentinfo"] a:hover{color:#a40575;}
 
 footer[role="contentinfo"] .menus div {width: 33%;float: left;}
 
-ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a {display: inline-block;width: 200px;}
-ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-due-date {width: 80px;display: inline-block;}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a .cpm-todo-text, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .cpm-todo-text {display: inline-block;width: 300px;}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-due-date {width: 120px;display: inline-block;padding: 3px 7px}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a .cpm-todo-text {vertical-align: middle;}
+ul.cpm-todolists article.cpm-todolist > ul li {margin:3px 0;}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap, .cpm-single-task .cpm-todo-wrap {padding-top: 5px;padding-bottom: 5px;}
+
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-due-date {padding: 3px 7px;}
+
+ul.cpm-todolists article.cpm-todolist > ul li .user2, ul.cpm-todolists article.cpm-todolist > ul li .user334, .cpm-single-task .user2
+	{	background: -webkit-linear-gradient(left,rgba(0,132,133,.2),rgba(255,255,255,1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(0,132,133,.2),rgba(255,255,255,1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(0,132,133,.2),rgba(255,255,255,1)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(0,132,133,.2), rgba(255,255,255,1)); /*Standard*/
+	}
+ul.cpm-todolists article.cpm-todolist > ul li .user3, ul.cpm-todolists article.cpm-todolist > ul li .user333, .cpm-single-task .user3
+	{	background: -webkit-linear-gradient(left,rgba(127,124,49,.2),rgba(255,255,255,1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(127,124,49,.2),rgba(255,255,255,1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(127,124,49,.2),rgba(255,255,255,1)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(127,124,49,.2), rgba(255,255,255,1)); /*Standard*/
+	}
+ul.cpm-todolists article.cpm-todolist > ul li .user4, ul.cpm-todolists article.cpm-todolist > ul li .user331, .cpm-single-task .user4
+	{	background: -webkit-linear-gradient(left,rgba(45,46,119,.2),rgba(255,255,255,1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(45,46,119,.2),rgba(255,255,255,1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(45,46,119,.2),rgba(255,255,255,1)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(45,46,119,.2), rgba(255,255,255,1)); /*Standard*/
+	}
+ul.cpm-todolists article.cpm-todolist > ul li .user5, ul.cpm-todolists article.cpm-todolist > ul li .user332, .cpm-single-task .user5
+	{	background: -webkit-linear-gradient(left,rgba(140,25,28,.2),rgba(255,255,255,1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(140,25,28,.2),rgba(255,255,255,1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(140,25,28,.2),rgba(255,255,255,1)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(140,25,28,.2), rgba(255,255,255,1)); /*Standard*/
+	}
+ul.cpm-todolists article.cpm-todolist > ul li .user6, ul.cpm-todolists article.cpm-todolist > ul li .user330, .cpm-single-task .user6
+	{	background: -webkit-linear-gradient(left,rgba(248,156,29,.2),rgba(255,255,255,1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(248,156,29,.2),rgba(255,255,255,1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(248,156,29,.2),rgba(255,255,255,1)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(248,156,29,.2), rgba(255,255,255,1)); /*Standard*/
+	}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user a, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-comment-count a, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user a {color: #fff}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user a:hover, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-comment-count a:hover, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .cpm-assigned-user a:hover {color: #ddd;text-decoration: none;}
+
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user2,ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user334, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .user2 {background: #008384}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user3, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user333, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .user3 {background: #7f7c31}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user4, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user331, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .user4 {background: #2d2e77}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user5, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user332, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .user5 {background: #8c191c}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user6, ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .user330, .cpm-single-task .cpm-todo-wrap .cpm-todo-content .user6 {background: #f89c1d}
+
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .cpm-comment-count {background-color: #666}
+.cpm ul.cpm-todolists article.cpm-todolist > ul {padding: 0 5px}
+.cpm ul.cpm-todolists article.cpm-todolist {border:0;border-top:1px dotted #ccc;}
+.cpm ul.cpm-todolists article.cpm-todolist header h3 a {color: #000}
+ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a:hover {color: #000}
