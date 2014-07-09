@@ -660,3 +660,11 @@ ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content .
 .cpm ul.cpm-todolists article.cpm-todolist {border:0;border-top:1px dotted #ccc;}
 .cpm ul.cpm-todolists article.cpm-todolist header h3 a {color: #000}
 ul.cpm-todolists article.cpm-todolist > ul li .cpm-todo-wrap .cpm-todo-content a:hover {color: #000}
+
+.cpm-projects nav.cpm-new-project a {box-shadow: none;width: 35px;height: 35px;opacity: .5;}
+.cpm-projects nav.cpm-new-project a:hover {opacity: 1}
+.cpm-projects .cpm-project {box-shadow: none;-webkit-box-shadow:none;border: 1px solid #eee;float: none;height: auto;width: auto;}
+.cpm-projects .cpm-project .cpm-progress .text {margin-top: -21px;}
+.cpm-projects .cpm-project .cpm-progress {height: 15px}
+
+.cpm-projects .cpm-project .cpm-project-people {display: none;}

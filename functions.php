@@ -455,3 +455,31 @@ function add_loginout_link( $items, $args ) {
 	</style>
 	<?php }
 	add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+
+/**
+ * Dequeue scripts from Project Manager
+ */
+
+	add_action('wp_enqueue_scripts', 'themify_remove_scripts');
+
+	function themify_remove_scripts(){
+
+	    wp_dequeue_style( 'cpm_prettyPhoto' );
+	    wp_dequeue_style( 'jquery-ui' );
+	    wp_dequeue_style( 'chosen' );
+	    wp_dequeue_style( 'fullcalendar' );
+
+	    wp_dequeue_script( 'cpm_prettyPhoto' );
+	    wp_dequeue_script( 'chosen' );
+	    wp_dequeue_script( 'validate' );
+	    wp_dequeue_script( 'plupload-handlers' );
+	    wp_dequeue_script( 'cpm_admin' );
+	    wp_dequeue_script( 'cpm_task' );
+	    wp_dequeue_script( 'cpm_mytask' );
+	    wp_dequeue_script( 'cpm_uploader' );
+	    wp_dequeue_script( 'fullcalendar' );
+	}
+
+// Adds combined JavaScript for Project Management
+	wp_enqueue_script( 'cpm_master', get_template_directory_uri() . '/js/master-ck.js', array( 'jquery' ), '20140318', true );
